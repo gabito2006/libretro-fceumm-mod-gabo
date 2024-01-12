@@ -21,6 +21,7 @@ jobs:
       run: make check
     - name: make distcheck
       run: make distcheck
-      name: cmake-configure
-      uses: snickerbockers/cmake-configure@prerel1
+    - name: cmake-configure
+    - uses: snickerbockers/cmake-configure@prerel1
+      
 
